@@ -1,4 +1,5 @@
 import AuthOverviewSection from "@/components/ui/sections/auth-overview";
+import CallToActionSection from "@/components/ui/sections/call-to-action";
 import FeaturesSection from "@/components/ui/sections/features";
 import HeroSection from "@/components/ui/sections/hero";
 import HowItWorksSection from "@/components/ui/sections/how-it-works";
@@ -14,6 +15,7 @@ export default function Home() {
       <ItemPreviewSection />
       <AuthOverviewSection />
       <TechStackSection />
+      <CallToActionSection />
     </>
   );
 }
