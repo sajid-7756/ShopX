@@ -1,3 +1,4 @@
+import AuthOverviewSection from "@/components/ui/sections/auth-overview";
 import FeaturesSection from "@/components/ui/sections/features";
 import HeroSection from "@/components/ui/sections/hero";
 import HowItWorksSection from "@/components/ui/sections/how-it-works";
@@ -10,6 +11,7 @@ export default function Home() {
       <FeaturesSection />
       <HowItWorksSection />
       <ItemPreviewSection />
+      <AuthOverviewSection />
     </>
   );
 }
